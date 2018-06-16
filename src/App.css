@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.boxshadow {
+	background: #fff;
+    max-width: 400px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 20%;
+    box-shadow: 4px 4px 10px 1px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    padding: 0px 25px 35px;
+}
+.avatar-logo{
+	max-width:100px;
+}
+
+.text
+{
+	
+	font-size:15px;
+}
+
+body
+{
+	background : dimgrey;
+}
+
+.anim {
+    width: 150px;
+    position: relative;
+    -webkit-animation: mymove 10s; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s ;
+}
+
+.feild {
+	align:left;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+ 
+    border: 1px solid #ccc;
+    
+}
+@media all and (min-width: 480px) {
+  .Login {
+    
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {opacity : 0;}
+    to {opacity : 1;}
+}
+
+@keyframes mymove {
+    from {opacity : 0;}
+    to {opacity : 1}
+}
+
